@@ -190,9 +190,10 @@ def run_pose_estimation_webcam_avec_detection(model_pose_path, model_detect_path
 
 if __name__ == "__main__":
     # IMPORTANT: Remplacer ceci par le chemin réel de vos modèles YOLO
-    MODEL_POSE_PATH = 'C:\\Users\\bastien\\Desktop\\acab\\pp\\yolo11m-pose.pt' 
-    MODEL_DETECT_PATH = 'C:\\Users\\bastien\\Desktop\\acab\\pp\\yolov8n.pt' 
+    MODEL_POSE_PATH = 'yolo11m-pose.pt' 
+    MODEL_DETECT_PATH = yolov8n.pt' 
     
     # Note: Les chemins des fichiers de reconnaissance faciale sont dans 'reconnaissance_faciale.py'
+
 
     run_pose_estimation_webcam_avec_detection(MODEL_POSE_PATH, MODEL_DETECT_PATH)
