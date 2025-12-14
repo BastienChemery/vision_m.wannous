@@ -22,7 +22,7 @@ Le rôle de l'Orchestrateur est de servir de **point d'entrée principal** pour 
 * La **gestion du flux de données** entre le module de détection/tracking et le module d'analyse comportementale.
 * La **configuration** et l'initialisation du système.
 
-### 2. 🧠 Module de Détection et de Tracking
+### 2 et 2.5 🧠 Module de Détection et de Tracking
 
 Ce module gère le traitement bas niveau du flux vidéo. Il est chargé de :
 
@@ -30,6 +30,7 @@ Ce module gère le traitement bas niveau du flux vidéo. Il est chargé de :
 * Effectuer la **Détection des Keypoints du Corps** (épaules, coudes, mains, genoux, etc.) pour déterminer la posture.
 * Détecter les **Boîtes Englobantes du Corps et du Visage**.
 * Assurer le **Tracking Multi-Objets** pour maintenir l'identité de chaque élève à travers les images.
+* **Détecter les visages** presents dans la base de données.
 
 
 
@@ -51,4 +52,7 @@ Ce module reçoit les données de position et de tracking du module précédent 
 
 ## ▶️ Comment Démarrer
 
-*(Ajoutez ici les étapes d'installation et d'exécution, e.g., `git clone`, `pip install -r requirements.txt`, `python orchestrator.py`)*
+* pip install -r requirements.txt
+* Mettre plusieurs photos de soi dans un fichier nommé de son nom dans le fichier tete.
+* Puis lancez vision_bras.py
+
