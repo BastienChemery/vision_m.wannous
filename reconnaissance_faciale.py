@@ -6,8 +6,8 @@ import numpy as np
 
 # --- Configuration et chemins ---
 # Chemin vers le fichier Haar Cascade pour la détection de visage (doit être téléchargé)
-HAAR_CASCADE_PATH = 'C:/Users/bastien/Desktop/acab/pp/haarcascade_frontalface_alt.xml' 
-# IMPORTANT : Remplacez ceci par le chemin réel de votre fichier XML.
+HAAR_CASCADE_PATH = 'haarcascade_frontalface_alt.xml' 
+
 
 # Dossier contenant les images de référence pour la comparaison
 DATABASE_FOLDER = 'C:/Users/bastien/Desktop/acab/pp/tetes' 
@@ -170,4 +170,5 @@ if __name__ == "__main__":
     print("Ce module contient la logique de reconnaissance faciale.")
     # Exécutez l'entraînement si le chemin est défini (pour tester)
     
+
     preparer_base_de_donnees_visages(DATABASE_FOLDER)
