@@ -53,6 +53,8 @@ Ce module reçoit les données de position et de tracking du module précédent 
 ## ▶️ Comment Démarrer
 
 * pip install -r requirements.txt
+* Telecharger yolo11m-pose.pt et yolov8n.pt et mettez les dans le dossier du projet.
 * Mettre plusieurs photos de soi dans un fichier nommé de son nom dans le fichier tete.
 * Puis lancez vision_bras.py
+
 
